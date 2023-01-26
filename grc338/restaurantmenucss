@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Koberl at Blue Menu</title>
+
+</head>
+
+<body>
+	<h1> Koberl <span>at</span> Blue </h1>
+
+	<h2> Main Menu </h2>
+		<h3> Appetizers </h3>
+			<ul>
+				<li><h4>Tempura Fried</h4>
+				<p class="description"> with lemon soy aioli and wasabi tobiko </p>
+				<p class="price"> $16.00 </p></li>
+
+				<li><h4> Seared Sea Scallops </h4>
+				<p class="description">with artichoke duxelle, bacon brown butter and radish sprouts or seasoned with hiwa kai sea salt on edamame puree with citrus vinaigrette</p>
+				<p class="price">$15.00</p></li>
+
+				<li><h4>Crispy Snow Crab chinois</h4>
+				<p class="description">with ginger, garlic and cilantro</p>
+				<p class="price">$14.00</p></li>
+
+				<li><h4>Shrimp</h4>
+				<p class="description">tempura with tomato, chipotle and avocado relish or sauteed, with artichoke duxelle, bacon brown butter and radish sprouts</p>
+				<p class="price">$14.00</p></li>
+
+				<li><h4>Beef Filet Carpaccio</h4>
+				<p class="description">horseradish aioli, shaved parmigiano reggiano, salad of celery root, parsley and sweet onion</p>
+				<p class="price">$12.00</p></li>
+
+				<li><h4>Sauteed Veal Sweetbread and Shrimp</h4>
+				<p class="description">salad of shitake mushrooms, orange and field greens in sherry dressing</p>
+				<p class="price">$14.00</p></li>
+			</ul>
+
+		<h3>Salads</h3>
+			<ul>
+				<li><h4>Butter Leaf and Fuji Apple</h4>
+				<p class="description">maytag blue cheese, candied walnuts, champagne vinaigrette</p>
+				<p class="price">$8.00</p></li>
+
+				<li><h4>Caesar</h4>
+				<p class="description">hearts of romaine, garlic croutons, spanish white anchovies, parmesano reggiano</p>
+				<p class="price">$8.00</p></li>
+
+				<li><h4>Field Greens and Avocado BLT</h4>
+				<p class="description">caramelized onion and bacon bruschetta, tomatoes and creamy red wine dressing</p>
+				<p class="price">$9.00</p></li>
+			</ul>
+
+			<h3>Entrees</h3>
+				<ul>
+					<li><h4>Pan Roasted Chicken Breast</h4>
+					<p class="description">artichoke risotto cake, grilled asparagus, mushroom marsala cream sauce and almond gremolata</p>
+					<p class="price">$22.00</p></li>
+
+					<li><h4>Herb Roasted Halibut</h4>
+					<p class="description">wild mushroom ravioli, sauteed spinach, basil vermouth sauce and melted tomatoes</p>
+					<p class="price">$30.00</p></li>
+
+					<li><h4>Crispy Filet of Salmon</h4>
+					<p class="description">on saffron pearl couscous with chorizo, menage au pois, lemon beurre blanc and roasted tomato, olive and caper relish</p>
+					<p class="price"> $25.00 </p></li>
+
+					<li><h4>Coriander Seared Sea Scallops and Shrimp</h4>
+					<p class="description">spiced chucka soba noodles, asparagus and mushrooms, lemon ginger butter sauce</p>
+					<p class="price">$28.00</p></li>
+
+					<li><h4>Sauteed Duck Breast and Confit of Duck</h4>
+					<p class="description">spring vegetable and yukon gold hash with applewood smoked bacon and goat cheese, rainbow chard and port blackberry sauce</p>
+					<p class="price">$28.00</p></li>
+
+					<li><h4>Grilled Pork Chop</h4>
+					<p class="description">roasted fingerling potatoes, corn, fava beans, cipollini, pancetta and watercress tarragon mustard sauce</p>
+					<p class="price">$25.00</p></li>
+				</ul>
+
+			<h3>Dessert</h3>
+				<ul>
+					<li><h4>Dark Chocolate Mousse</h4>
+					<p class="description">with whipped cream and almond wafer</p>
+					<p class="price">$10.00</p></li>
+
+					<li><h4>Creme Brulee</h4>
+					<p class="description">french vanilla custard, fresh berries</p>
+					<p class="price">$8.00</p></li>
+
+					<li><h4>Chocolate Lava Cake</h4>
+					<p class="description">raspberry coulis, creme anglaise</p>
+					<p class="price">$12.00</p></li>
+				</ul>
+		</ul>
+	</ul>
+</body>
+
+<footer>
+<footer>
+
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background-color: rgba(250,250,250,255); /* Not totally white. */
+	color: rgba(51,51,51,255);  /* Not totally black. */
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: sans-serif;
+}
+
+h1 {
+	background-color: rgba(153,153,169,255);
+	color: rgba(250,250,250,255); /* Same as body background. */
+	font-size: 36px;
+	padding: 2rem 1rem 0.5rem; /* You want three values. */
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+/* You’ll need to add a span element to your HTML. */
+h1 span { 	
+	font-family: serif;
+	font-style: italic;
+	font-weight: 400;
+	text-transform: lowercase;
+}
+
+h2 {
+	background-color: rgba(153,153,169,255);
+	color: rgba(250,250,250,255);
+	font-size: 28px;
+	padding: 1rem;
+	font-family: serif;
+	font-weight: 700;
+}
+
+h3 {
+	margin: 3rem 1rem 1.5rem; /*Three values again. You got the idea.*/
+	padding-top: 1rem;
+	font-size: 24px;
+	color: rgba(188,34,34,255);
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: solid 2px rgba(188,34,34,255);
+}
+
+h4 {
+	font-weight: 700;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: rgba(188,34,34,255);
+}
+
+ul {
+	margin: 1rem 1rem 1.5rem;
+}
+
+li { 
+	margin: 1rem 0rem;
+	list-style-type: none;
+}
